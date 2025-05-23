@@ -2,6 +2,18 @@
 
 This project processes large telecom data logs to compute data usage and cost per mobile number. It reads multiple `.txt` files containing raw usage, validates them, aggregates usage, calculates cost, and generates clean CSV reports.
 
+## Folder Structure
+DataMeter/ <br />
+├── src/<br />
+│ └── DataMeter.java # Main Java program <br />
+├── E:/DataMeter Dataset/ # Input/output folder (create manually)<br />
+│ ├── file1.txt # Example input file <br />
+│ ├── file2.txt # More input files... <br />
+│ ├── output.csv # Auto-generated valid result <br />
+│ └── bad_data.csv # Auto-generated invalid records <br />
+└── README.md <br />
+
+
 ## Features
 - Validates input lines (10-digit phone numbers, numeric 4G/5G usage)
 - Aggregates data per mobile number
