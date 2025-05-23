@@ -24,6 +24,6 @@ This project processes large telecom data logs to compute data usage and cost pe
 ## Setup Folder
 E:/DataMeter Dataset/ -- can vary in your pc
 ## Compile and Run
-cd src
-javac DataMeter.java
-java DataMeter
+cd src <br />
+javac DataMeter.java <br />
+java DataMeter <br />
