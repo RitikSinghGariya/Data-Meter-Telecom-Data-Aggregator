@@ -6,15 +6,7 @@ This project processes large telecom data logs to compute data usage and cost pe
 
 ## Folder Structure
 
-DataMeter/
-├── src/
-│ └── DataMeter.java # Main Java program
-├── E:/DataMeter Dataset/ # Input/output folder (create manually)
-│ ├── file1.txt # Example input file
-│ ├── file2.txt # More input files...
-│ ├── output.csv # Auto-generated valid result
-│ └── bad_data.csv # Auto-generated invalid records
-└── README.md
+<pre> ## 📁 Folder Structure <code> ``` DataMeter/ ├── src/ │ └── DataMeter.java # Main Java program ├── E:/DataMeter Dataset/ # Input/output folder (create manually) │ ├── file1.txt # Example input file │ ├── file2.txt # More input files... │ ├── output.csv # Auto-generated valid result │ └── bad_data.csv # Auto-generated invalid records └── README.md ``` </code> </pre>
 
 **Note:** `output.csv` and `bad_data.csv` will be **automatically generated**. You don't need to create them manually.
 ## Features
